@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body{
+    background-color:#04293A;     /*cor de fundo do body*/
+    font-family: Source Sans Pro;
+}
+
+
+.blocoTitulo{
+    margin: 50px;           /*margem*/
+    padding: 5px;          /*espaçamento de dentro*/
+    background-color: #D1D1D1;
+    text-align: center;     /*Centralizando  o texto*/
+    border-radius: 15px;    /*arredondamento de borda*/
+
+}
+
+.principal{
+
+    margin-top: 50px;       /*margem de cima*/
+    margin-left: 400px;     /*margem da esquerda*/
+    margin-right: 400px;        /*margem da direita*/
+    height: 200px;      /*altura da div*/
+    background-color: #D1D1D1;
+    ;
+    padding: 50px;  /*espaçamento de dentro*/
+    border-radius: 15px; /*arredondamento de borda*/
+}
+
+.tituloBlocoBtn{
+    text-align: center;
+    margin:0px;
+    margin-bottom: 20px;    /*margem de baixo*/
+}
+
+/*div das caixas de txt*/
+.campoTexto{
+    text-align: center;
+    padding: 3px;   /*espaçamento de dentro*/
+    margin: 10px;   
+    
+}
+
+/*caixa dos botões soma e subtração*/
+.botoesA{
+    text-align: center;
+    margin: 10px;
+}
+
+/*caixa dos botões divisão e multiplicação*/
+.botoesB{
+    text-align: center;
+    margin: 10px;
+
+}
+
+/*botão soma e subtração*/
+.btnA{
+    height: 25px;
+    width: 100px;
+}
+
+/*botão divisão e múltiplicação*/
+.btnB{
+        height: 25px;
+        width: 100px;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+
+    height: 60px;
+}
+
+.label{
+    margin: 20px;
+}
+
+
