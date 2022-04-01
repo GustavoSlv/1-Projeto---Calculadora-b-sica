@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 body{
-    background-color:#04293A;     /*cor de fundo do body*/
+    background-color: black;     /*cor de fundo do body*/
     font-family: Source Sans Pro;
 }
 
@@ -8,22 +8,30 @@ body{
 .blocoTitulo{
     margin: 50px;           /*margem*/
     padding: 5px;          /*espaçamento de dentro*/
-    background-color: #D1D1D1;
+    background-color: white;
     text-align: center;     /*Centralizando  o texto*/
     border-radius: 15px;    /*arredondamento de borda*/
+    box-shadow:  1px 6px 100px 1px rgb(86, 221, 255);
+    text-shadow: black;
+    
 
 }
 
 .principal{
 
-    margin-top: 50px;       /*margem de cima*/
+    margin-top: 100px;       /*margem de cima*/
     margin-left: 400px;     /*margem da esquerda*/
     margin-right: 400px;        /*margem da direita*/
     height: 200px;      /*altura da div*/
-    background-color: #D1D1D1;
-    ;
+    background-color: white;
     padding: 50px;  /*espaçamento de dentro*/
     border-radius: 15px; /*arredondamento de borda*/
+
+    /*valores do b. shadow:  horizontal, vertical, blur(quanto maior mais borrada),
+    o quarto é o tamanho da sombra e o quinto a cor e o sexto se ela é interna ou não
+    (inset cria uma sombra interna)*/
+    box-shadow:  1px 6px 100px 1px rgb(86, 221, 255); 
+  
 }
 
 .tituloBlocoBtn{
