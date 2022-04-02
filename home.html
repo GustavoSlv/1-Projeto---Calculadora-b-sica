@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="soma.js"></script>
+    <script src="soma.js" defer></script>
     <title>Calculadora</title>
+
+
 </head>
 
 <body>
 
     <!--bloco titulo-->
     <div class="blocoTitulo">
-        <h1> <strong>CALCULADORA DAS QUATRO OPERAÇÕES BÁSICAS </strong></h1>
+        <h1 id="titulo"> <strong>CALCULADORA DAS QUATRO OPERAÇÕES BÁSICAS </strong></h1>
     </div>
 
     <div class="principal">
@@ -31,24 +33,23 @@
                 </div>
 
                 <div class="botoesA">
-                    <button id="" class="btnA" onclick="">Soma</button>
-                    <button id="" class="btnA" onclick="">Subtração</button>
+                    <button id="" class="btnA" onclick="cliqueSoma()">Soma</button>
+                    <button id="" class="btnA" onclick="cliqueSubtracao()">Subtração</button>
                 </div>
                 <div class="botoesB">
-                    <button id="" class="btnB" onclick="">Divisão</button>
-                    <button id="" class="btnB" onclick="">Multiplicação</button>
+                    <button id="" class="btnB" onclick="cliqueDivisao()">Divisão</button>
+                    <button id="" class="btnB" onclick="cliqueMultiplicacao()">Multiplicação</button>
                 </div>
                     
 
                 <div class="resultado">
                     <p class="label">Resultado:</p>
-                    <p class="label">Aparecerá aqui</p>
+                    <p class="label" id="resultado">Aparecerá aqui</p>
                 </div>
-
-
-                    
+                   
             </div>
 
         </div>
-</body>
+
+ </body>
 </html>
